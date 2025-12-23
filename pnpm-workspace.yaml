@@ -1,0 +1,11 @@
+packages:
+  - packages/*
+
+catalog:
+  '@types/node': ^24.10.4
+  tsdown: 0.18.2
+  typescript: 5.9.3
+  vitest: 4.0.16
+
+onlyBuiltDependencies:
+  - esbuild
