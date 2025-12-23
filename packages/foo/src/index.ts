@@ -5,3 +5,11 @@ export function foo(): string {
 export function fooScreaming(): string {
   return 'FOO!!!'
 }
+
+export function fooSqueaking(): string {
+  return (
+    'FOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO' +
+    'OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO' +
+    'OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO'
+  )
+}
